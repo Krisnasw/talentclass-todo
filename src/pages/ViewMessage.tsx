@@ -31,7 +31,7 @@ function ViewMessage() {
       <IonHeader translucent>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton text="Inbox" defaultHref="/home"></IonBackButton>
+            <IonBackButton text="Todo App" defaultHref="/home"></IonBackButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -49,7 +49,7 @@ function ViewMessage() {
                   </span>
                 </h2>
                 <h3>
-                  To: <IonNote>Me</IonNote>
+                  Category: <IonNote>Me</IonNote>
                 </h3>
               </IonLabel>
             </IonItem>
